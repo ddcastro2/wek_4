@@ -8,5 +8,13 @@ cars.insert(2, "Jeep")
 print(f"The list of cares are now: {cars}")
 cars.remove("Jeep")
 print(f"The list of cares are now: {cars}")
-check = ("Toyota" in cars)
-print(f"The statement that Toyota is in the list is {check}")
+check = ("Ford" in cars)
+print(f"The statement that Ford is in the list is {check}")
+
+for car in cars:
+    requestCar = input("Enter a car: ")
+    cars.append(requestCar)
+    print(f'The cars in the list are: {cars}')
+    if len(cars) == 10:
+        print("You have reached the maximum amount of cars.")
+        break

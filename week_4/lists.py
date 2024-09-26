@@ -11,10 +11,28 @@ print(f"The list of cares are now: {cars}")
 check = ("Ford" in cars)
 print(f"The statement that Ford is in the list is {check}")
 
-for car in cars:
-    requestCar = input("Enter a car: ")
-    cars.append(requestCar)
-    print(f'The cars in the list are: {cars}')
-    if len(cars) == 10:
-        print("You have reached the maximum amount of cars.")
-        break
+# for car in cars:
+#     requestCar = input("Enter a car: ")
+#     cars.append(requestCar)
+#     print(f'The cars in the list are: {cars}')
+#     if len(cars) > 10:
+#         print("You have reached the maximum amount of cars.")
+#         break
+
+
+
+print("               ")
+print("this is this seperate the two challenges")
+print("               ")
+
+
+#CHALLENGE
+#create a list of friends in the list
+friends = ["Miguel", "Fernando", "Jonathan","Aidan"]
+print(f"Here is my list of friends: {friends}")
+friends[3] = "Adrian"
+print(f"My new list of friends is: {friends}")
+friends[2] = "Aidan"
+print(f"My new list of friends is: {friends}")
+friends.insert(2, "Jonathan")
+print(f"My new list of friends is: {friends}")

@@ -1,82 +1,82 @@
 
 
-# # Sets##################################
-# # Sets are unordered collections of unique elements
-# # Sets are mutable
-# # Sets are defined by curly braces {}
-# #example of sets
-# set1 = {1, 2, 3, 4, 5}  # set of integers
-# set2 = {'apple', 'banana', 'cherry'}  # set of strings
-# set3 = {1, 2, 3, 'apple', 'banana'}  # mixed set
-# set4 = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5}  # duplicate elements are removed
-# print(1 in set1)
-# print('apple' in set2)
-# #access elements in a set
+# Sets##################################
+# Sets are unordered collections of unique elements
+# Sets are mutable
+# Sets are defined by curly braces {}
+#example of sets
+set1 = {1, 2, 3, 4, 5}  # set of integers
+set2 = {'apple', 'banana', 'cherry'}  # set of strings
+set3 = {1, 2, 3, 'apple', 'banana'}  # mixed set
+set4 = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5}  # duplicate elements are removed
+print(1 in set1)
+print('apple' in set2)
+#access elements in a set
 
 
-# # add elements to a set
-# set1.add(6)
-# print(set1)
-# #remove elements from a set
-# print(set1.remove(6))
-# print(set1)
-# #check if an element is in a set
-# print(1 in set1)
+# add elements to a set
+set1.add(6)
+print(set1)
+#remove elements from a set
+print(set1.remove(6))
+print(set1)
+#check if an element is in a set
+print(1 in set1)
 
-# #find the length of a set
-# print(len(set1))
+#find the length of a set
+print(len(set1))
 
-# #clear a set
-# set1.clear
-# print(set1)
-# set2.clear
-# print(set2)
-
-
-# #tuples##################################
-# # Tuples are ordered collections of elements
-# # Tuples are immutable
-# # Tuples are defined by parentheses ()
-# #example of tuples
-# tuple1 = (1, 2, 3, 4, 5)  # tuple of integers
-# tuple2 = ('apple', 'banana', 'cherry')  # tuple of strings
-# tuple3 = (1, 2, 3, 'apple', 'banana')  # mixed tuple
-# tuple4 = (1, 2, 3, 4, 5, 1, 2, 3, 4, 5)  # duplicate elements are allowed
+#clear a set
+set1.clear
+print(set1)
+set2.clear
+print(set2)
 
 
-# #access elements in a tuple
-# print(tuple1[0])
-# print(tuple2[1])
-# print(tuple3[3])
-# #find the length of a tuple
-# print(len(tuple1))
-# print(len(tuple2))
-# #count the number of occurrences of an element in a tuple
-# print(tuple4.count(1))
-# print(tuple4.count(6))
-# print(tuple3.count('apple'))
-# #find the index of an element in a tuple
-# print(tuple1.index(3))
-# print(tuple2.index('cherry'))
-# print(tuple3.index('banana'))
-# #convert a tuple to a list
-# print(list(tuple1))
-
-# #convert a list to a tuple
-# print(tuple(list(tuple1)))
+#tuples##################################
+# Tuples are ordered collections of elements
+# Tuples are immutable
+# Tuples are defined by parentheses ()
+#example of tuples
+tuple1 = (1, 2, 3, 4, 5)  # tuple of integers
+tuple2 = ('apple', 'banana', 'cherry')  # tuple of strings
+tuple3 = (1, 2, 3, 'apple', 'banana')  # mixed tuple
+tuple4 = (1, 2, 3, 4, 5, 1, 2, 3, 4, 5)  # duplicate elements are allowed
 
 
+#access elements in a tuple
+print(tuple1[0])
+print(tuple2[1])
+print(tuple3[3])
+#find the length of a tuple
+print(len(tuple1))
+print(len(tuple2))
+#count the number of occurrences of an element in a tuple
+print(tuple4.count(1))
+print(tuple4.count(6))
+print(tuple3.count('apple'))
+#find the index of an element in a tuple
+print(tuple1.index(3))
+print(tuple2.index('cherry'))
+print(tuple3.index('banana'))
+#convert a tuple to a list
+print(list(tuple1))
 
+#convert a list to a tuple
+print(tuple(list(tuple1)))
 
 
 
 
 
-#######################tuples challenge#####################
+
+
+
+# ######################tuples challenge#####################
 # Challenge: Count the number of occurrences of the character 'v' in the text below.
 # The text is converted to a tuple of characters and the target characters are 'v' and 'V'.
 # The result is output to the console.
-#queue the videos(2)
+# queue the videos(2)
 text = """Voilà! In view, a humble vaudevillian veteran, cast vicariously as both victim and villain by the vicissitudes of Fate.
 This visage, no mere veneer of vanity, is a vestige of the vox populi, now vacant, vanished. However, this valorous visitation
 of a by-gone vexation stands vivified, and has vowed to vanquish these venal and virulent vermin vanguarding vice and
